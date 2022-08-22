@@ -8,10 +8,10 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "typescript": "^4.5.4",
-    "vite": "^2.9.0"
+    "typescript": "^4.7.4",
+    "vite": "^3.0.9"
   },
   "dependencies": {
-    "redom": "^3.27.1"
+    "redom": "^3.29.0"
   }
 }
