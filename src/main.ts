@@ -1,6 +1,6 @@
 import { el, mount } from 'redom'
+import '@picocss/pico/css/pico.min.css'
 import './style.css'
-
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 
@@ -15,6 +15,8 @@ class App {
       el('a', 'ReDOM Documentation', {href: 'https://redom.js.org/', target: '_blank'}),
       el('br'),
       el('a', 'TypeScript Documentation', {href: 'https://www.typescriptlang.org/docs/', target: '_blank'}),
+      el('br'),
+      el('a', 'PicoCSS - Semantic CSS Framework', {href: 'https://picocss.com/', target: '_blank'}),
     ])
   }
 }

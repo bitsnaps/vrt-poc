@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@picocss/pico':
+    specifier: ^2.0.6
+    version: 2.0.6
   redom:
     specifier: ^4.0.0
     version: 4.0.0
@@ -225,6 +228,11 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@picocss/pico@2.0.6:
+    resolution: {integrity: sha512-/d8qsykowelD6g8k8JYgmCagOIulCPHMEc2NC4u7OjmpQLmtSetLhEbt0j1n3fPNJVcrT84dRp0RfJBn3wJROA==}
+    engines: {node: '>=18.19.0'}
+    dev: false
 
   /@rollup/rollup-android-arm-eabi@4.17.1:
     resolution: {integrity: sha512-P6Wg856Ou/DLpR+O0ZLneNmrv7QpqBg+hK4wE05ijbC/t349BRfMfx+UFj5Ha3fCFopIa6iSZlpdaB4agkWp2Q==}
